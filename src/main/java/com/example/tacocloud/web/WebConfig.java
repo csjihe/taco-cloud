@@ -1,4 +1,4 @@
-package com.example.tacocloud;
+package com.example.tacocloud.web;
 
 
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,9 @@
-package com.example.tacocloud;
+package com.example.tacocloud.web;
 
 
 import javax.validation.Valid;
 
+import com.example.tacocloud.Order;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
