@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-@NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
+@NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
 @Entity
 public class Ingredient {
 
@@ -23,4 +23,5 @@ public class Ingredient {
     public static enum Type {
         WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
     }
+
 }

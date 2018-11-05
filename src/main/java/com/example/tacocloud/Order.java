@@ -1,7 +1,6 @@
 package com.example.tacocloud;
 
-// tag::allButDetailProperties[]
-package tacos;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
