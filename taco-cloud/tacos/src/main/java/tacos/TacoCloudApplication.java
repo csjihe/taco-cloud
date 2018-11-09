@@ -18,7 +18,7 @@ public class TacoCloudApplication {
   public static void main(String[] args) {
     SpringApplication.run(TacoCloudApplication.class, args);
   }
-  
+
   // To avoid 404s when using Angular HTML 5 routing
   @Bean
   ErrorViewResolver supportPathBasedLocationStrategyWithoutHashes() {
@@ -31,5 +31,5 @@ public class TacoCloudApplication {
           }
       };
   }
-  
+
 }
